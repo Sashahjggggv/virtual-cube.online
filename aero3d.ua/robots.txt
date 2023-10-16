@@ -17,5 +17,5 @@ Disallow: /*.php
 Disallow: /*?replytocom
 Disallow: /*?turl
 
-Host: aero3d.ua
-Sitemap: https://aero3d.ua/sitemap_index.xml
+Host: virtual-cube.online
+Sitemap: https://virtual-cube.online/sitemap_index.xml
