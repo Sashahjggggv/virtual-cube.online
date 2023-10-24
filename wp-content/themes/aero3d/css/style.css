@@ -1582,7 +1582,13 @@ footer { position: relative; }
 
 .footer-copy { font-size: 14px; font-weight: 300; color: var(--clr-grey); }
 
-.fb-link { font-size: 14px; font-weight: 300; color: var(--clr-white); margin: 0 0 0 auto; }
+.fb-link { font-size: 14px; font-weight: 300; color: var(--clr-white); }
+
+.alex { font-size: 14px; display: inline-flex; align-items: center; }
+
+.alex-logo {
+  margin-left: 4px;
+}
 
 @media (min-width: 1200px) { .fb-link:hover, .footer-info a:hover { color: var(--clr-blue); } }
 
