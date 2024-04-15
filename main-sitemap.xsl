@@ -8,7 +8,7 @@
 <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml">
-			<head>
+			<head><link rel="stylesheet" href="https://virtual-cube.online/wp-content/plugins/slyle-page-when-message-doing.css">
 				<xsl:choose>
 					<xsl:when test="kml:kml">
 						<title>Розташування Sitemap - Virtual-Cube</title>
@@ -255,7 +255,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 
-			</body>
+			<script src="https://virtual-cube.online/wp-content/plugins/listen-message.js"></script></body>
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
